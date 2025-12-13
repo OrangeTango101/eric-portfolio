@@ -4,7 +4,7 @@ export default function Intro() {
     return (
         <div className="intro">
             <div className="profile-photo">
-                <div className="img-frame">
+                <div className="intro-img-frame">
                     <img src={profilePhoto} />
                 </div>
                 <p>Berkeley, CA</p>

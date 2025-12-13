@@ -1,6 +1,6 @@
-import Title from "./Title"
+import Title from "../Title"
 import ResumeEntry from "./ResumeEntry"
-import resumeData from "../resumeData"
+import resumeData from "/Users/ericjohnson/my-portfolio/src/data/resumeData.js"
 
 
 export default function Resume(props) {
@@ -9,7 +9,7 @@ export default function Resume(props) {
     })
 
     return (
-        <article>
+        <article className="resume">
             <Title title={props.title} /> 
             {resumeEntries}
         </article>
