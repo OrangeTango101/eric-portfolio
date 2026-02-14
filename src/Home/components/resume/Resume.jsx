@@ -12,14 +12,14 @@ export default function Resume(props) {
     })
 
     return (
-        <article 
-            className="resume"
+        <section 
+            id="resume"
             onMouseEnter={() => setGlowEffect("glow")}
             onMouseLeave={() => setGlowEffect("no-glow")}
         >
             <Title title={props.title} glow={glowEffect}/> 
             {resumeEntries}
-        </article>
+        </section>
     )
 
 }

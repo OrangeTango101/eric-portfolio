@@ -11,8 +11,8 @@ export default function Skills(props) {
     })
 
     return (
-        <article 
-            className="skills"
+        <section 
+            id="skills"
             onMouseEnter={() => setGlowEffect("glow")}
             onMouseLeave={() => setGlowEffect("no-glow")}
         >
@@ -20,6 +20,6 @@ export default function Skills(props) {
             <div className="skills-body">
                 {skillEntries}
             </div>
-        </article>
+        </section>
     )
 }

@@ -8,10 +8,10 @@ export default function Main() {
     return (
         <main>
             <div className="main-content">
-                <Intro />
+                <Intro id="Intro" />
                 <Resume title="Professional Experience" />
-                <Skills title="Tech Arsenal" />
-                <Projects title="Featured Projects" />
+                <Skills id="Skills" title="Tech Arsenal" />
+                <Projects id="Projects" title="Featured Projects" />
 
             </div>
         </main>

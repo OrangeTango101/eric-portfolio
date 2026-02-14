@@ -11,8 +11,8 @@ export default function Projects(props) {
     })
 
     return (
-        <article 
-            className="projects"
+        <section 
+            id="projects"
             onMouseEnter={() => setGlowEffect("glow")}
             onMouseLeave={() => setGlowEffect("no-glow")}
         >
@@ -20,6 +20,6 @@ export default function Projects(props) {
             <div className="projects-body">
                 {projectEntries}
             </div>
-        </article>
+        </section>
     )
 }

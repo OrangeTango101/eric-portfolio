@@ -2,7 +2,7 @@ export default function ProjectEntry(props) {
     return (
         <div className="project-entry">
             <div className="project-entry-img-frame">
-                <img src={props.data.src} />
+                <img src={(import.meta.env.BASE_URL + props.data.src).replace(/\/+/g, '/')} />
             </div>
             <div className="project-entry-body">
                 <div className="project-entry-body-title"> 
@@ -12,7 +12,7 @@ export default function ProjectEntry(props) {
                     <p>{props.data.desc}</p>
                 </div>
                 <div className="project-entry-body-footer"> 
-                    <a href={props.data.link}>Link</a>
+                    <a target="_blank" href={props.data.link}>Link</a>
                 </div>
             </div>
         </div>
