@@ -16,7 +16,7 @@ export default [
         label: "Madera Group, San Francisco",
         date: "May 2024 - Sep 2024",
         sub: "Data Consultant",
-        desc: "As a Data Consultant with Madera Group, I organized the companies donor data to help the company to successfully run a fundraising campaign for Harris-Waltz presidential campaign. Here are some of my achievements: ",
+        desc: "As a Data Consultant with Madera Group, I organized the companies donor data to help the company to successfully run a fundraising effort for Harris-Waltz presidential campaign. Here are some of my achievements: ",
         bullets: [
             "Provided data analysis, list segmentation, and managed a 23,000 user database for Madera Group clients",
             "Collaborated in a cross-functional team that ultimately helped raise $1M for the Harris Waltz Presidential Campaign and Biden Harris Presidential Campaign",
